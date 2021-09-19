@@ -1,7 +1,6 @@
 import React from 'react'
-import trohy from '../images/trophy.svg';
-import trohy2 from '../images/trophy2.svg';
-import trohy3 from '../images/trophy3.svg';
+import vision from '../images/vision.svg';
+import mission from '../images/mission.svg';
 function Vision(props) {
   return (
     <div>
@@ -15,12 +14,22 @@ function Vision(props) {
         </div>
         <div id='present'>
           <div id='box'>
-            <img src={trohy} alt='' /><br />
+          <div>
+            <img src={vision} alt='' />
+            </div>
+            <div  className='s-b-text'>
+            <h2 style={{color: "#323232"}}>Vision</h2>
             <p>kjdfsd nkjdshu ifkjdf hoiwhf vnbckjvcn vkjvsvg dgsgs afgdg sdhz dtgsn AFgbsnx stjxjnt sxjxdcfd adfgrstgth sr</p>
           </div>
+          </div>
           <div id='box'>
-            <img src={trohy3} alt='' /><br />
-            <p>kjdfsd nkjdshu ifkjdf hoiwhf vnbckjvcn vkjvsvg dgsgs afgdg sdhz dtgsn AFgbsnx stjxjnt sxjxdcfd adfgrstgth sr</p>
+          <div >
+          <img src={mission} alt='' />
+          </div>
+          <div  className='s-b-text'>
+          <h2 style={{color: "#323232"}}> Mission</h2>
+          <p>kjdfsd nkjdshu ifkjdf hoiwhf vnbckjvcn vkjvsvg dgsgs afgdg sdhz dtgsn AFgbsnx stjxjnt sxjxdcfd adfgrstgth sr</p>
+        </div>
           </div>
         </div>
       </div>
