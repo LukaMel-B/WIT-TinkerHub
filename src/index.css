@@ -300,9 +300,10 @@ span {
   padding-top: 0px;
   margin-bottom: 20px;
   margin-top: 5px;
+  color: #747373;
 }
 #box p:hover {
-  color: #524d4d;
+  color: #4b4646;
 }
 .a-container {
   display: flex;
