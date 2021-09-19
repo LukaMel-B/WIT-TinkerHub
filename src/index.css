@@ -309,25 +309,11 @@ span {
   justify-content: center;
   align-content: center;
 }
-.pre-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-}
+
 .a-box {
   background-color: #ffffff;
   width: 300px;
   height: 490px;
-  margin: 20px;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: 0.3s ease-in-out;
-  position: relative;
-}
-.pre-box {
-  background-color: #ffffff;
-  width: 150px;
-  height: 50px;
   margin: 20px;
   border-radius: 10px;
   overflow: hidden;
@@ -350,9 +336,7 @@ span {
 #box:hover {
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
 }
-.pre-box:hover {
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-}
+
 #box img {
   width: 150px;
   height: 150px;
@@ -439,17 +423,7 @@ span {
   flex-direction: column;
   padding-bottom: 25px;
 }
-.pre-b-text {
-  width: 100vw;
-  height: 30%;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  padding-bottom: 10px;
-}
+
 .s-b-text p {
   margin: 0px;
   color: #313030a6;
@@ -470,39 +444,6 @@ span {
 }
 .s-b-text a {
   margin-top: 15px;
-}
-.pre-b-text p {
-  margin: 0px;
-  color: #313030a6;
-  font-size: 0.8rem;
-  font-family: calibri;
-  display: block;
-  display: -webkit-box;
-  max-width: 80%;
-  margin-top: 25px;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.pre-b-text p:hover {
-  color: #524d4d;
-}
-.pre-b-text a {
-  margin-top: 15px;
-}
-.s-type {
-  font-family: calibri;
-  color: #000266;
-  background-color: #ffffff;
-  padding: 10px 15px;
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 18px;
-  border-radius: 0px 0px 10px 10px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 #contact {
@@ -578,18 +519,14 @@ span {
   .a-container {
     flex-wrap: wrap;
   }
-  .pre-container {
-    flex-wrap: wrap;
-  }
+
   .a-box {
     flex-grow: 1;
   }
   .box {
     flex-grow: 1;
   }
-  .pre-box {
-    flex-grow: 1;
-  }
+
   #services {
     height: auto;
   }
@@ -605,9 +542,7 @@ span {
   .a-b-img img {
     object-fit: contain;
   }
-  .pre-b-img img {
-    object-fit: contain;
-  }
+
 }
 
 @media (max-width: 970px) {
