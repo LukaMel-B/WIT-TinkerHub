@@ -31,7 +31,7 @@ const changeBackground= () => {
            <li><a href='#features'className='active'>Events</a></li>
            <li><a href='#about'className='active'>Registration</a></li>
            <li><a href='#achv'className='active'>Achievements</a></li>
-           <li><a href='#contact'className='active'>About</a></li>
+           <li><a href='#mission'className='active'>About</a></li>
            </ul>
         </nav>
     )
