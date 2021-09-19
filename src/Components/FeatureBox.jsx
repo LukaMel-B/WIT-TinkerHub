@@ -8,7 +8,7 @@ function FeatureBox(props) {
     </div>
     <div className='s-b-text'>
     <h2> {props.title}</h2>
-    <p>fkdjghaouvjnzxvjwaeoiufrgradg;SJgo   isjgklsjoisgklsjitkgjorigh  jfngiowryhjrngsjf  iowgnhsdjkcnsoifhui</p></div>
+    <p> Where women support women.<br />See whats <a href='#happening' >happening now!</a></p></div>
     </div>
   );
 }

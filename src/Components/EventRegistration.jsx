@@ -6,7 +6,7 @@ function EventRegistration(props) {
     <div id='about'>
        <div className='register-text'>
          <h2> {props.title} </h2>
-         <p>dmfgner ighufjgrb yt yu ;gh,dfh dfgjnsioerg fldgndk kh uydnvrtvgfn hehjn,hn.</p>
+         <p>Wonderfull events are on the way, so why waiting!... go on grab your chance.</p>
          <button>{props.button}</button>
        </div>
        <div className='about-image'>

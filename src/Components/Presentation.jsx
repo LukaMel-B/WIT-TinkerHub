@@ -15,15 +15,15 @@ function Presentation(props) {
         <div id='present'>
           <div id='box'>
             <img src={trohy} alt='' /><br />
-            <p>kjdfsd nkjdshu ifkjdf hoiwhf vnbckjvcn vkjvsvg dgsgs afgdg sdhz dtgsn AFgbsnx stjxjnt sxjxdcfd adfgrstgth sr</p>
+            <p>We empower ourselves and let others empower too.</p>
           </div>
           <div id='box'>
             <img src={trohy2} alt='' /><br />
-            <p>kjdfsd nkjdshu ifkjdf hoiwhf kjdfsd nkjdshu ifkjdf hoiwhf vnbckjvcn vkjvsvg dgsgs afgdg sdhz dtgsn AFgbsnx stjxjnt sxjxdcfd adfgrstgth sr</p>
+            <p>Many of us are already placed in some top companies.</p>
           </div>
           <div id='box'>
             <img src={trohy3} alt='' /><br />
-            <p>kjdfsd nkjdshu ifkjdf hoiwhf vnbckjvcn vkjvsvg dgsgs afgdg sdhz dtgsn AFgbsnx stjxjnt sxjxdcfd adfgrstgth sr</p>
+            <p>Some of us have gained incredible awards.</p>
           </div>
         </div>
       </div>
